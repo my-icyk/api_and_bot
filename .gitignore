@@ -1,0 +1,65 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.so
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# --- Dependencies / Build ---
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+*.egg
+
+# --- Environment Variables ---
+.env
+.env.*
+*.token
+
+# --- Logs ---
+*.log
+log/
+logs/
+
+# --- Databases / Cache ---
+*.db
+*.sqlite3
+*.sqlite
+cache/
+*.cache
+
+# --- Testing ---
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# --- IDE / Editors ---
+.vscode/
+.idea/
+*.iml
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- FastAPI / Uvicorn ---
+*.pid
+
+# --- Docker ---
+docker-compose.override.yml
+.docker/
+/old version/
